@@ -2,15 +2,15 @@ from turtle import *
 # we want to paint house
 
 
-# step 1: draw a square
-# speed(30)   #speed of how quick it will draw
+# draw a square
+speed(30)   
 shape("turtle")
 
  
 width(7)
 color("blue")
 forward(200)
-left(90)     #marked by degrees of rotation
+left(90)     
 
 forward(200)
 left(90)
@@ -39,7 +39,7 @@ end_fill()
  #drawing roof
 
  
-penup()    #taking pen out of drawing canvas
+penup()  
 goto(200,200)
 pendown()
 color("magenta")
@@ -77,8 +77,6 @@ end_fill()
 
 
 # drawing right window 
-
-
 
 
 penup()
