@@ -2,6 +2,4 @@
 
 name = ("Gvanca")
 
-lastname = (" Mazanishvili ")
-
-print ( name + lastname)
+print ( name )
