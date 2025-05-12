@@ -9,5 +9,5 @@ print(True or False and False or True and False or False and False or False and 
 print(5 > 10 or 7 * 7 / 7 == 7 and False or True and "1234" != "1234" and 7 + 3 * 3 + 1 == 15 and True and True or 100 > 100 or True)
 
 
-#  გამოიტანს True რადგან ყველგან სადაც წერია  True იქ არის "or" და "False" რის გამოცც იქმება True ყოველთვის
+#  გამოიტანს True რადგან ყველგან სადაც წერია  True იქ არის "or" და "False" რის გამოც იქმება True ყოველთვის
 
