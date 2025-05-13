@@ -1,7 +1,6 @@
-# 1) მომხარებელს შემოატანინეთ სახელი და ასაკი და დაპრინტეთ შემდეგ ფორმატში: "Name: სახელი, Age: ასაკი"
+# 1)შემოატანინეთ მომხმარებელს რიცხვი  და თუ 10 ზე მეტი იქნება  გამოიტანინოს ("you are right ")
 
-name = input("Name: " )
+num = int(input("Enter your number..."))
 
-age = input("Age: " )
-
-print (age + ", " + name)
+if num > 10:
+    print ("you are right ")

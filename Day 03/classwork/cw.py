@@ -1,6 +1,20 @@
-# შექმენით პითონის ფაილი და შემქენით ამ ფაილში თითოეული მონაცემთა ტიპი.
+#  გამოასწორეთ მოცემული კოდი
 
-string = "hello!"
-integer = 15 
-float = 15.6
-boolean = True or False
+# name = "Alice
+# age = 25
+# height = 5.4
+
+# print("Name: " + name)
+# print("Age: " + ag)
+# print("Height: ", height)
+# print("Hello " + name + "! Your age is " + age)
+
+
+name = "Alice"
+age = 25
+height = 5.4
+
+print (name)
+print (age)
+print (height)
+print ("Hello " + name + "! Your age is " + str(age))

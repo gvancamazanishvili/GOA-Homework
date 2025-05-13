@@ -1,10 +1,6 @@
-# 1) შექმენით ხუთი ცვლადი და გამოიყენეთ ეს ცვლადები რომ შეადგინოთ წინადადება
-# 2) დაარქვით ამ ცვლადებს snake_case სინტაქსით
+# 2) შემოატანინეთ მომხმარებელს ორი სტრინგი და გამოიტანეთ მათ გაერთიანება
 
+num1 = str(input("enter your first word..."))
+num2 = str(input("enter your second word..."))
 
-first_name = "Gvanca"
-surname = "Mazanishvili"
-hobby = "Music"
-favorite_colour = "Navy blue"
-
-print (F" Hello, my name is {first_name} and my surname is {surname}  my hobby is {hobby} and my favorite colour is {favorite_colour}")
+print(num1 + num2)

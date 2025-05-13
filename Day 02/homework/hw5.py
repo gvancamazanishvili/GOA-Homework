@@ -1,7 +1,14 @@
-# 5) შექმენით 2 ცვლადი და შეინახეთ მნიშვნელობა, გყავთ თუარა შინაური ცხოველი/ფრინველი(Boolean).
+# 5) შექმენით 5 ცვლადი სადაც შეინახავთ თქვენზე ინფორმაციას  და შემდეგ 
+# დაპრინტეთ თითოეული მათგანი
 
-pet1 = (" cat ") 
-pet2 = (" dog ")
+name = "Gvanca"
+lastname = "Mazanishvili"
+age = 15
+hobby = "Music"
+favorite_colour = "dark red"
 
-print( bool( " pet1 "))
-print (bool (False)) == ( "pet2")
+print(name)
+print(lastname)
+print(age)
+print(hobby)
+print(favorite_colour)

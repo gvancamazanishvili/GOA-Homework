@@ -1,19 +1,12 @@
-# 4) შექმენით 5 ცვლადი სადაც შეინახავთ რიცხვებს, მაგალითად: (15, 432, 25, 3, 45, 346) ამ ცვლადებზე უნდა მოახდინოთ ოპერაციები, მაგალითად მიმატება, გამოკლება, გამრავლება და გაყოფა.
+# 2) მომხმარებელს შემოატანინეთ ორი რიცხვითი მნიშვნელობა (სიგანე და სიმაღლე). ტერმინალში გამოიტანეთ ფართობი/პერიმეტრი. S = ფართობი (S = width*height)/P = პერიმეტრი (P = (width+height)*2
 
-num1 = 87
-num2 = 10883
-num3 = 19
-num4 = 1500
-num5 = 17
+width = float(input("enter a number"))
+height = float(input("enter a number"))
 
-print ( num1 + num5 )
-print ( num4 + num1 )
+P = ((width + height) * 2)
+S = ((width * height )/ P)
 
-print ( num5 * num3 )
-print ( num1 * num4 )
+print (f"P = პერიმეტრი {P}")
+print (f"S = ფართობი {S}")
 
-print ( num4 / num2 )
-print ( num5 / num1 )
 
-print ( num1 - num4 )
-print ( num3 - num4 )

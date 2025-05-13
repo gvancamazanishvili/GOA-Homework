@@ -1,5 +1,3 @@
-# 1) შექმენით 1 ცვლადი და ჩაწერეთ თქვენი სახელი(String).
+# 1) გაიარეთ რეგისტრაცია sololearn-ზე (sololearn.com)
 
-name = ("Gvanca")
-
-print ( name )
+# done

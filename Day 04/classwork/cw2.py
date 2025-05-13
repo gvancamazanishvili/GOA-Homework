@@ -1,7 +1,11 @@
-# 2) შემქენით ტექსტური ინფორმაცია და შეინახეთ ის text info ცვლადში და შექმენით ციფრული ინფორმაცია და შეინახეთ ის number count ცვლადში (მნიშვნელობები თქვენთვითონ აარჩიეთ და გამოიყენეთ ცვლადის სახელისთვის snake_case)
+# 3) მომხმარებელს შეატანინეთ მისი სახელი გვარი და ასაკი და შემდეგ გამოიტანეთ ისინი outpout-ში შედეგი გამოსახულებით -სახელი: {შემოყვანილი სახელი}- (იგივე ყველა ცვლადზე)
 
+name = input("Enter your name: " )
+print (name)
 
-text_into = "barbare"
+surname = input("Enter your surname: " )
+print (surname)
 
-number_count = 8 
+age = input("Enter your age: "  )
+print (age)
 

@@ -1,12 +1,16 @@
-# 2) მომხმარებელს შემოატანინეთ ორი რიცხვითი მნიშვნელობა (სიგანე და სიმაღლე). ტერმინალში გამოიტანეთ ფართობი/პერიმეტრი. S = ფართობი (S = width*height)/P = პერიმეტრი (P = (width+height)*2
+# 2)მომხმარებელს შემოატანინეთ ორი რიცხვი გააკეთეთ მათზე მათემატიკური ოპერაციები  ("+, -, *, /, %, <, >, <=, >=, ==, !=. **) 
 
-width = float(input("enter a number"))
-height = float(input("enter a number"))
+num1 = int(input("enter your number"))
+num2 = int(input("enter your number"))
 
-P = ((width + height) * 2)
-S = ((width * height )/ P)
-
-print (f"P = პერიმეტრი {P}")
-print (f"S = ფართობი {S}")
-
-
+print ( num1 + num2 )
+print ( num1 - num2 )
+print ( num1 * num2 )
+print ( num1 / num2 )
+print ( num1 % num2 )
+print ( num1 < num2 )
+print ( num1 > num2 )
+print ( num1 <= num2 )
+print ( num1 >= num2 )
+print ( num1 != num2 )
+print ( num1 ** num2 )
