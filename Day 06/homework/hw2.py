@@ -11,7 +11,7 @@ print ( 15 )
 
 
 # selection - საშვალებას იძლევა რომ განსაზღვრავს, როდის უნდა მიჰყვეთ თითოეულ გზას.n
-# 
+
 num = int(input("enter your number"))
 
 if num >= 18:
