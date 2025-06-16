@@ -7,7 +7,7 @@
 age = int(input(" Enter your age: "))
 
 
-if age <12:
+if age < 13 :
     print("ბევრი ვიტამინიანი საკვები")
 elif age <= 25:
     print("ენერგიის მომცემი საკვები")

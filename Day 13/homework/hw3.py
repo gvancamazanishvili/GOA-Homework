@@ -7,10 +7,10 @@
 age = int(input(" Enter your age: "))
 hour = int(input(" Enter your hour: "))
 
-if age < 18 and hour >= 22:
+if age <= 18 and hour >= 22:
     print("დროა დაძინების")
 elif age >= 60 and hour >= 21:
     print("დასვენება რეკომენდებულია")
 else:
-    ("შეგიძლიათ გააგრძელოთ აქტივობა")
+    print("შეგიძლიათ გააგრძელოთ აქტივობა")
 

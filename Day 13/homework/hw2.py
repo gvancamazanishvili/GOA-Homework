@@ -19,7 +19,7 @@ age = int(input(" Enter your age: "))
 weight = int(input(" Enter your weight: "))
 
 
-if age < 10:
+if age <= 10:
     if weight < 20:
         print("წონა ნაკლებია")
     elif weight <=40:
@@ -29,7 +29,7 @@ if age < 10:
 
 
         
-if age < 17:
+if age <= 17:
     if weight < 40:
         print("წონა ნაკლებია")
     elif weight <= 65:
